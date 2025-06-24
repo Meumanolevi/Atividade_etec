@@ -282,15 +282,14 @@ nav ul {
     overflow: hidden;
     max-width: 100%;
     min-height: 480px;
-    width: 100%;
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
-
+    width: 50vw;
 }
 
 .container p {
@@ -608,46 +607,90 @@ nav ul {
         font-size: 18px;
     }
 }
+/* Ajuste para tablets e telas médias */
 @media (max-width: 900px) {
     .container {
-        min-width: 320px;
+        width: 98vw;
+        min-width: unset;
         min-height: 540px;
-        width: 95vw;
         margin: 20px auto;
+        border-radius: 18px;
+        padding: 10px;
     }
     .form-container,
     .sign-in,
     .sign-up {
         width: 100%;
         left: 0;
+        min-height: 480px;
     }
     .toggle-container {
-        display: none;
+        display: none !important;
     }
 }
 
+/* Ajuste para celulares */
 @media (max-width: 600px) {
     .container {
-        border-radius: 10px;
+        border-radius: 8px;
         min-height: 100vh;
         padding: 0;
         box-shadow: none;
+        width: 100vw;
+        margin: 0;
     }
     .form-container {
         position: static;
         width: 100%;
         min-height: 100vh;
         box-shadow: none;
+        padding: 0;
     }
     .container form {
-        padding: 0 10px;
+        padding: 0 5vw;
     }
     .social-icons a {
-        width: 36px;
-        height: 36px;
-        font-size: 18px;
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
     }
-    .toggle-pannel {
-        display: none;
+    .toggle-pannel,
+    .toggle-container {
+        display: none !important;
+    }
+    .navbar,
+    nav,
+    header {
+        padding: 8px 4vw !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-links {
+        gap: 8px;
+        padding: 10px 0;
+    }
+    .search-container {
+        width: 100%;
+        min-width: 0;
+    }
+    #search-bar {
+        font-size: 13px;
+        padding: 8px 36px 8px 10px;
+    }
+    #search-button {
+        font-size: 13px;
+        padding: 4px 8px;
+        right: 6px;
+    }
+}
+
+/* Corrige sobreposição de media queries duplicadas */
+@media (max-width: 900px) {
+    .toggle-container {
+        display: none !important;
     }
 }
