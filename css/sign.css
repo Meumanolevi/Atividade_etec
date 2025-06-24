@@ -575,7 +575,7 @@ nav ul {
         flex-direction: column;
         background: #333;
         position: absolute;
-        top: 60px; /* ajuste conforme seu header */
+        top: 60px; 
         right: 20px;
         width: 70vw;
         border-radius: 10px;
@@ -607,7 +607,7 @@ nav ul {
         font-size: 18px;
     }
 }
-/* Ajuste para tablets e telas médias */
+
 @media (max-width: 900px) {
     .container {
         width: 98vw;
@@ -629,7 +629,7 @@ nav ul {
     }
 }
 
-/* Ajuste para celulares */
+
 @media (max-width: 600px) {
     .container {
         border-radius: 8px;
@@ -688,7 +688,7 @@ nav ul {
     }
 }
 
-/* Corrige sobreposição de media queries duplicadas */
+
 @media (max-width: 900px) {
     .toggle-container {
         display: none !important;
