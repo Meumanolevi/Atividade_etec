@@ -1,29 +1,29 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; /* fonte padrão */
-    background-color: #f4f4f4; /* cor do fundo */
-    color: #333; /* cor do texto */
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333;
 }
 
 /* --Header-- */
 header {
-    background-color: #333; /* cor do fundo */
-    color: #fff; /* cor do texto */
+    background-color: #333; 
+    color: #fff;
     padding: 10px 20px;
     font-family: Arial, sans-serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* sombra  */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 /* Topbar */
 .topbar {
     display: flex;
-    justify-content: space-between; /* espaçar os itens (redes sociais e login) */
-    align-items: center; /* alinha os itens */
+    justify-content: space-between; 
+    align-items: center;
     padding: 10px 20px; 
-    background: linear-gradient(90deg, #444, #555); /* gradiente do fundo */
-    border-radius: 10px; /* Arredonda os cantos */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
-    margin: 10px 20px; /* Espaçamento externo para afastar das bordas */
+    background: linear-gradient(90deg, #444, #555); 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px 20px; 
 }
 
 /* Redes sociais */
@@ -39,13 +39,13 @@ header {
 }
 
 .topbar .social-links a img:hover {
-    transform: scale(1.2); /* Efeito de zoom */
+    transform: scale(1.2); 
 }
 
 /* Login */
 .topbar .login {
     display: flex;
-    align-items: center; /* Alinha verticalmente com as redes sociais */
+    align-items: center; 
 }
 
 .topbar .login a {
@@ -55,8 +55,8 @@ header {
     text-decoration: none;
     font-size: 14px;
     padding: 5px 15px;
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo translúcido */
-    border-radius: 20px; /* Bordas arredondadas */
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 20px; 
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -69,14 +69,14 @@ header {
 }
 
 .topbar .login a:hover {
-    background-color: rgba(255, 255, 255, 0.5); /* Fundo mais claro ao passar o mouse */
-    transform: scale(1.05); /* Efeito de zoom */
+    background-color: rgba(255, 255, 255, 0.5); 
+    transform: scale(1.05); 
     color: #000;
 }
 
 .topbar .login a:hover img {
-    filter: invert(0%); /* Ícone preto ao passar o mouse */
-    transform: scale(1.2); /* Zoom no ícone */
+    filter: invert(0%); 
+    transform: scale(1.2); 
 }
 
 /* --Login-- */
@@ -100,8 +100,8 @@ header {
 }
 .login a img {
     margin-right: 5px;
-    width: 20px; /* Ajuste o tamanho do ícone */
-    height: 20px; /* Ajuste o tamanho do ícone */
+    width: 20px; 
+    height: 20px; 
     filter: invert(100%);
     transition: transform 0.3s ease;
 }
@@ -112,26 +112,26 @@ header {
 }
 
 .login a:hover img {
-    filter: invert(0%); /* muda a imagem pra preto */
-    transform: scale(1.2); /* zoom */
+    filter: invert(0%); 
+    transform: scale(1.2); 
 }
 
 
 /* --Navegacao-- */
 nav {
-    background-color: #333; /* Cor de fundo da navbar */
-    padding: 15px 20px; /* Espaçamento interno */
+    background-color: #333; 
+    padding: 15px 20px; 
     font-family: Arial, sans-serif;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar a navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .navbar .logo {
-    font-size: 24px; /* Tamanho da fonte */
-    font-weight: bold; /* Deixa o texto em negrito */
-    color: #fff; /* Cor do texto */
-    text-decoration: none; /* Remove sublinhado */
-    margin-right: auto; /* Alinha à esquerda */
-    padding: 0 15px; /* Espaçamento interno */
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #fff; 
+    text-decoration: none; 
+    margin-right: auto; 
+    padding: 0 15px; 
     transition: color 0.3s ease, transform 0.3s ease;
     display: flex;
     align-items: center;
@@ -139,177 +139,176 @@ nav {
 
 /* Estilo para o "U" */
 .navbar .logo .logo-u {
-    font-family: "Great Vibes", cursive; /* Fonte cursiva para o "U" */
-    font-size: 36px; /* Tamanho maior para o "U" */
-    margin-right: 2px; /* Espaçamento entre o "U" e o restante do texto */
+    font-family: "Great Vibes", cursive; 
+    font-size: 36px; 
+    margin-right: 2px; 
 }
 
 /* Estilo para o restante do texto */
 .navbar .logo {
-    font-family: "Playfair Display", serif; /* Fonte elegante para o restante do texto */
-    font-size: 24px; /* Tamanho da fonte */
-    font-weight: normal; /* Peso normal para combinar com o "U" */
-    color: #fff; /* Cor do texto */
-    text-decoration: none; /* Remove sublinhado */
+    font-family: "Playfair Display", serif; 
+    font-size: 24px; 
+    font-weight: normal; 
+    color: #fff; 
+    text-decoration: none; 
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 /* Hover na logo */
 .navbar .logo:hover {
-    color: rgba(255, 255, 255, 0.7); /* Cor ao passar o mouse */
-    transform: scale(1.1); /* Efeito de zoom */
+    color: rgba(255, 255, 255, 0.7); 
+    transform: scale(1.1); 
 }
 
 nav ul {
-    list-style: none; /* Remove os marcadores */
+    list-style: none; 
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centraliza os itens */
+    justify-content: center; 
     align-items: center;
-    gap: 15px; /* Espaçamento entre os links */
+    gap: 15px;
 }
 
 /* Navbar */
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Espaça os itens (logo, links e barra de pesquisa) */
-    padding: 15px 20px; /* Espaçamento interno */
-    background: linear-gradient(90deg, #444, #555); /* Gradiente de fundo */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
-    margin: 20px 20px; /* Espaçamento externo para afastar das bordas */
-    transition: padding 0.3s ease; /* Transição suave para o movimento */
+    justify-content: space-between;
+    padding: 15px 20px; 
+    background: linear-gradient(90deg, #444, #555); 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    margin: 20px 20px; 
+    transition: padding 0.3s ease; 
 }
 
 /* Lista de navegação */
 .nav-links {
-    list-style: none; /* Remove os marcadores */
+    list-style: none; 
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 15px; /* Espaçamento entre os links */
-    flex-grow: 1; /* Faz os links ocuparem o espaço disponível */
-    justify-content: center; /* Centraliza os links */
-    transition: margin 0.3s ease; /* Transição suave para o movimento */
+    gap: 15px; 
+    flex-grow: 1; 
+    justify-content: center; 
+    transition: margin 0.3s ease; 
 }
 
 /* Links de navegação */
 .nav-links a {
-    color: #fff; /* Cor do texto */
-    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; 
+    text-decoration: none; 
     font-size: 16px;
-    padding: 10px 15px; /* Espaçamento interno dos links */
-    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; 
+    border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.5); /* Fundo translúcido ao passar o mouse */
-    color: #000; /* Cor do texto ao passar o mouse */
-    transform: scale(1.1); /* Efeito de zoom */
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #000; 
+    transform: scale(1.1); 
 }
 
 /* Barra de pesquisa */
 .search-container {
-    position: relative; /* Necessário para posicionar o botão dentro do campo */
+    position: relative; 
     display: flex;
     align-items: center;
-    width: 300px; /* Largura total do contêiner */
-    transition: width 0.3s ease; /* Transição suave */
+    width: 300px; 
+    transition: width 0.3s ease; 
 }
 
 #search-bar {
-    width: 100%; /* Ocupa toda a largura do contêiner */
-    padding: 8px 40px 8px 12px; /* Espaçamento interno (deixa espaço para o botão) */
-    font-size: 14px; /* Tamanho do texto */
-    border: 1px solid #777777ab; /* Borda */
-    border-radius: 10px; /* Bordas arredondadas */
-    transition: width 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    width: 100%; 
+    padding: 8px 40px 8px 12px; 
+    font-size: 14px; 
+    border: 1px solid #777777ab;
+    border-radius: 10px; 
+    transition: width 0.3s ease, box-shadow 0.3s ease; 
 }
 
 #search-button {
-    position: absolute; /* Posiciona o botão dentro do contêiner */
-    top: 50%; /* Centraliza verticalmente */
-    right: 10px; /* Alinha à direita */
-    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
-    background-color: #444; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda padrão */
-    padding: 5px 10px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-size: 14px; /* Tamanho do texto */
-    cursor: pointer; /* Mostra o cursor de clique */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Transição suave */
+    position: absolute; 
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-50%); 
+    background-color: #444; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px;
+    border-radius: 5px; 
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 }
 
 /* Efeito ao passar o mouse na barra */
 #search-bar:hover {
-    width: 110%; /* Aumenta a largura ao passar o mouse */
-    box-shadow: 0 0 8px #555; /* Adiciona destaque */
-    border-color: #555; /* Cor da borda ao passar o mouse */
+    width: 110%; 
+    box-shadow: 0 0 8px #555;
+    border-color: #555;
 }
 
 .search-container:hover {
-    width: 350px; /* Aumenta o contêiner da barra de pesquisa */
+    width: 350px; 
 }
 
 /* Ajusta os links quando a barra aumenta */
 .search-container:hover ~ .nav-links {
-    margin-left: 20px; /* Move os links para acompanhar o movimento da barra */
+    margin-left: 20px;
 }
 
 
 /* --Conteudo-- */
 
-/* Título da seção */
+
 .section-title {
-    font-size: 24px; /* Tamanho da fonte */
-    font-weight: bold; /* Deixa o texto em negrito */
-    color: #333; /* Cor do texto */
-    text-align: center; /* Centraliza o título */
-    margin: 20px 0; /* Espaçamento acima e abaixo */
-    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
-    letter-spacing: 2px; /* Espaçamento entre as letras */
-    border-bottom: 2px solid #5f545588; /* Linha decorativa abaixo do título */
-    display: inline-block; /* Faz o título ocupar apenas o espaço do texto */
-    padding-bottom: 5px; /* Espaçamento interno abaixo do texto */
+    font-size: 24px;
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+    margin: 20px 0;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    border-bottom: 2px solid #5f545588;
+    display: inline-block; 
+    padding-bottom: 5px; 
 }
 
 
 /* --Banner-- */
-/* Contêiner do carrossel */
 .banner-carousel {
-    position: relative; /* Necessário para posicionar os banners */
-    width: 100%; /* Largura total */
-    height: 550px; /* Altura fixa para os banners */
-    overflow: hidden; /* Esconde os banners fora do contêiner */
+    position: relative; 
+    width: 100%; 
+    height: 550px; 
+    overflow: hidden;
     border-radius: 5px;
 }
 
 /* Cada banner */
 .banner {
-    position: absolute; /* Posiciona os banners um sobre o outro */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Faz o banner ocupar toda a largura */
-    height: 100%; /* Faz o banner ocupar toda a altura */
-    opacity: 0; /* Torna os banners invisíveis por padrão */
-    animation: fade 6s infinite; /* Animação para alternar os banners */
-    display: flex; /* Permite centralizar o conteúdo */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    overflow: hidden; /* Esconde o conteúdo que ultrapassa o contêiner */
+    width: 100%; 
+    height: 100%; 
+    opacity: 0; 
+    animation: fade 6s infinite; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
 }
 
 /* Imagem do banner */
-/* Imagem do banner */
+
 .banner img {
-    width: 100%; /* Faz a imagem ocupar toda a largura do banner */
-    height: 100%; /* Faz a imagem ocupar toda a altura do banner */
-    object-fit: cover; /* Garante que a imagem inteira seja exibida */
-    background-color: #000; /* Adiciona um fundo para preencher os espaços vazios (opcional) */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #000; 
 }
 
 /* Animação para alternar os banners */
@@ -333,187 +332,185 @@ nav ul {
 
 /* Texto sobre o banner */
 .banner-text {
-    position: absolute; /* Posiciona o texto sobre a imagem */
-    bottom: 20px; /* Alinha o texto na parte inferior */
-    left: 20px; /* Alinha o texto à esquerda */
-    color: #fff; /* Cor do texto */
-    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-    padding: 10px 20px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-family: Arial, sans-serif; /* Fonte do texto */
-    text-align: left; /* Alinha o texto à esquerda */
+    position: absolute; 
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-family: Arial, sans-serif; 
+    text-align: left; 
 }
 
 .banner-text h2 {
-    font-size: 24px; /* Tamanho do título */
-    margin: 0; /* Remove margens */
+    font-size: 24px; 
+    margin: 0; 
     font-style: italic;
     font-family: "Playfair Display", serif;
 }
 
 .banner-text p {
-    font-size: 16px; /* Tamanho do parágrafo */
-    margin: 5px 0 0; /* Margens para o parágrafo */
-    font-family: Arial, sans-serif; /* Fonte do parágrafo */
+    font-size: 16px; 
+    margin: 5px 0 0; 
+    font-family: Arial, sans-serif; 
     font-style: normal;
     font-weight: 400;
 }
 
 /* --Produtos-- */
-/* Contêiner principal */
 .products {
     display: flex;
-    flex-wrap: wrap; /* Permite que os produtos se movam para a próxima linha */
-    justify-content: center; /* Centraliza os produtos */
-    padding: 20px; /* Espaçamento interno */
-    gap: 20px; /* Espaçamento entre os produtos */
-    justify-content: center; /* Centraliza os produtos */       
-    margin: 20px 0; /* Margem superior e inferior */
-    background-color: #f4f4f4; /* Cor de fundo */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px; 
+    gap: 20px; 
+    justify-content: center;      
+    margin: 20px 0; 
+    background-color: #f4f4f4; 
 }
 /* Contêiner de cada produto */
 .products img {
-    width: 100%; /* Faz a imagem ocupar toda a largura do produto */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 5px; /* Bordas arredondadas */
+    width: 100%;
+    height: auto; 
+    border-radius: 5px;
     margin-bottom: 10px;
-    transition: transform 0.3s ease; /* Transição suave */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    transition: transform 0.3s ease; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 /* nome do produto */
 .products h3 {
-    font-size: 16px; /* Tamanho do texto */
-    margin: 10px 0 5px; /* Margens para o título */
+    font-size: 16px; 
+    margin: 10px 0 5px; 
     color: #333;
-    font-family: Arial, sans-serif; /* Fonte do título */
-    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; 
+    text-align: center; 
 }
 /* Preço do produto */
 .products p {
-    font-size: 18px; /* Tamanho do texto */
+    font-size: 18px; 
     font-weight: bold;
-    margin: 10px 0; /* Remove margens */
-    color: #e63946; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
-    font-family: Arial, sans-serif; /* Fonte do preço */
+    margin: 10px 0; 
+    color: #e63946; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
 }
 /* efeito de hover no produto */
 .products .product {
-    background-color: #fff; /* Cor de fundo */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
-    width: 200px; /* Largura fixa para os produtos */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    background-color: #fff; 
+    border-radius: 5px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 200px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 .products .product:hover {
-    transform: scale(1.05); /* Efeito de zoom */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 .product:hover {
-    transform: scale(1.05); /* Leve zoom no produto */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 /* Botão "Ver mais" */
 .view-more {
-    text-align: center; /* Centraliza o botão */
-    margin-top: 20px; /* Espaçamento acima */
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 .view-more button {
-    background-color: #444; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda padrão */
-    padding: 10px 20px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Mostra o cursor de clique */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    background-color: #444; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .view-more button:hover {
-    background-color: #555; /* Cor ao passar o mouse */
-    transform: scale(1.1); /* Efeito de zoom */
+    background-color: #555; 
+    transform: scale(1.1); 
 }
 
 .view-more button:hover {
-    background-color: #555; /* Cor de fundo ao passar o mouse */
-    transform: scale(1.1); /* Leve zoom no botão */
+    background-color: #555; 
+    transform: scale(1.1); 
 }
 
 /* -- adicionar ao carrinho-- */
-/* Botão "Adicionar ao Carrinho" */
 .add-to-cart {
-    background-color: #5f545588; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda padrão */
-    padding: 10px 15px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-size: 14px; /* Tamanho da fonte */
-    font-weight: bold; /* Deixa o texto em negrito */
-    cursor: pointer; /* Mostra o cursor de clique */
-    margin-top: 10px; /* Espaçamento acima */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
-    width: 100%; /* Faz o botão ocupar toda a largura do produto */
+    background-color: #5f545588;
+    color: #fff; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    width: 100%; 
 }
 
 /* Efeito ao passar o mouse no botão */
 .add-to-cart:hover {
-    background-color: #5f5455c7; /* Cor mais escura ao passar o mouse */
-    transform: scale(1.05); /* Leve zoom no botão */
+    background-color: #5f5455c7; 
+    transform: scale(1.05); 
 }
 
 
 
 /* --Rodapé-- */
 .footer {
-    background-color: #333; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 20px 0; /* Espaçamento interno */
-    text-align: center; /* Centraliza o texto */
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
 }
 
 .footer-container {
-    display: flex; /* Exibe as seções lado a lado */
-    justify-content: space-around; /* Espaça as seções uniformemente */
-    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
-    max-width: 1200px; /* Largura máxima */
-    margin: 0 auto; /* Centraliza o conteúdo */
-    padding: 0 20px; /* Espaçamento interno horizontal */
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px; 
 }
 
 .footer-section {
-    flex: 1; /* Faz as seções ocuparem o mesmo espaço */
-    margin: 10px; /* Espaçamento entre as seções */
+    flex: 1; 
+    margin: 10px; 
 }
 
 .footer-section h3 {
-    font-size: 18px; /* Tamanho do título */
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    font-size: 18px; 
+    margin-bottom: 10px; 
 }
 
 .footer-section p {
-    font-size: 14px; /* Tamanho do texto */
-    margin: 5px 0; /* Espaçamento entre os parágrafos */
+    font-size: 14px; 
+    margin: 5px 0; 
 }
 
 .footer-bottom {
-    margin-top: 20px; /* Espaçamento acima */
-    font-size: 14px; /* Tamanho do texto */
-    border-top: 1px solid #555; /* Linha separadora */
-    padding-top: 10px; /* Espaçamento interno acima */
+    margin-top: 20px; 
+    font-size: 14px; 
+    border-top: 1px solid #555; 
+    padding-top: 10px; 
 }
 
 .social-links a {
-    margin: 0 5px; /* Espaçamento entre os ícones */
-    display: inline-block; /* Exibe os ícones lado a lado */
-    transition: transform 0.3s ease; /* Transição suave */
+    margin: 0 5px; 
+    display: inline-block; 
+    transition: transform 0.3s ease; 
 }
 
 .social-links a:hover {
-    transform: scale(1.2); /* Leve zoom ao passar o mouse */
+    transform: scale(1.2); 
 }
 
 
@@ -546,7 +543,7 @@ nav ul {
     }
 }
 
-/* Responsividade para celulares */
+/* responsividade para celulares */
 @media (max-width: 600px) {
     header,
     nav,
@@ -643,3 +640,144 @@ nav ul {
         display: flex;
     }
 }
+/* --Contact Us-- */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: #f6f3f0;
+    padding: 40px 0;
+}
+
+.contact-container {
+    display: flex;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.contact-image img {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+    display: block ;
+    border-radius: 18px 0 0 18px; /* Arredonda os cantos esquerdo */
+}
+
+.contact-form-info {
+    flex: 1;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form-info h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    color: #222;
+}
+
+.styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.styled-form label {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 2px;
+}
+
+.styled-form input,
+.styled-form textarea {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    padding: 8px 4px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.styled-form input:focus,
+.styled-form textarea:focus {
+    border-bottom: 2px solid #222;
+}
+
+.styled-form button {
+    margin-top: 10px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.styled-form button:hover {
+    background: #444;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1rem;
+    color: #222;
+}
+
+.contact-details strong {
+    font-weight: 600;
+}
+
+.contact-details a {
+    color: #222;
+    text-decoration: none;
+}
+
+.contact-social {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 800px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .contact-image img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    .contact-form-info {
+        padding: 24px 16px;
+    }
+}
+/* --botao do wpp-- */
+#wpp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    z-index: 1000; 
+}
+
